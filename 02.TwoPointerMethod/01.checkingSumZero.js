@@ -48,7 +48,7 @@ function getSumPairToSix(array){
 
         let sum = array[left] + array[right];
 
-        if(sum === 6){
+        if(sum === 9){
             return [array[left], array[right]]
         }else if(sum > 0){
             right--;
@@ -59,7 +59,7 @@ function getSumPairToSix(array){
 }
 
 let result1 = getSumPairToSix(arr)
-console.log(result1)
+console.log("amit--",result1)
 
 
 //Problem 2:- Find the pairs that sums to x
