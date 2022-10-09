@@ -20,14 +20,14 @@ function findLargest(array, num){
 const result = findLargest([1,2,3,4,3,5,4,6,7,8], 4)
 console.log(result)
 
-function pqr(){
-    for(;;){
-    let a=10;
-    const b=20;
-    var c=30;
-    }
-     console.log(a,b,c);
-    }
-    pqr()
-    console.log(c)
+// function pqr(){
+//     for(;;){
+//     let a=10;
+//     const b=20;
+//     var c=30;
+//     }
+//      console.log(a,b,c);
+//     }
+//     pqr()
+//     console.log(c)
  

@@ -48,9 +48,9 @@ function getSumPairToSix(array){
 
         let sum = array[left] + array[right];
 
-        if(sum === 9){
+        if(sum === 6){
             return [array[left], array[right]]
-        }else if(sum > 0){
+        }else if(sum > 6){
             right--;
         }else{
             left++;
