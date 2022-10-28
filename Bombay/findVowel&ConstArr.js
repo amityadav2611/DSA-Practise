@@ -1,5 +1,6 @@
 //calculate the number of vowels and consonants in a string
 
+//--------------------------print all vowels and consonants in the string--------------------------
 // function filterVowelsAndConsonants(s) {
 //     for (var i in s.split('')) {
 //         if (['a', 'e', 'i', 'o', 'u'].includes(s.split('')[i])) {
@@ -15,9 +16,10 @@
 // // let str = "My name is khan"
 // // const result = filterVowelsAndConsonants(str)
 // // console.log(result)
-// filterVowelsAndConsonants("prashant Kumar Yadav")
+// filterVowelsAndConsonants("prashantKumarYadav")
 
 
+//-----------------------------count the vowels and string---------------------------------------------
 function countVowelsCons(inputString){ 
      
     let vow = 0; 
@@ -34,4 +36,4 @@ function countVowelsCons(inputString){
     console.log(`${vow} vowels present`); 
     console.log(`${cons} consonants are present.`); 
 }; 
-countVowelsCons("iamfine"); 
+countVowelsCons("prashantKumarYadav"); 

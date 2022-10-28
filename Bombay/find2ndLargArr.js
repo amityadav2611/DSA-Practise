@@ -21,3 +21,25 @@ const result = secondLargestElemInArr(array);
 console.log(result)
 
 //O(n
+
+
+
+//--------------------------second smallest in array---------------------------------------------
+
+function secondSmallestElemInArr(arr){
+    var smallest = arr[0]; 
+	var secondSmallest = arr[1]; 
+
+		for(var i = 0; i < arr.length; i++) { 
+			if(arr[i] < smallest) {  
+				smallest = arr[i];  
+			}  
+
+			if(arr[i] > smallest && arr[i] < secondSmallest ) { 
+				secondSmallest = arr[i]; 
+			} 
+		} 
+        return secondSmallest;
+}
+const result1 = secondSmallestElemInArr(array);
+console.log(result1)

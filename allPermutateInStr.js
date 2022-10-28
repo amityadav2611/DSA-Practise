@@ -1,4 +1,4 @@
-//write aprogram 
+//write a program to print all permuation in a string
 
 let str = "abc";
 //ouputput -> abc acb bac bca cba cab
