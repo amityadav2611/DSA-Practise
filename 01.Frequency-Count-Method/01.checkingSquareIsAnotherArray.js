@@ -44,14 +44,14 @@ for(let item of array1){
 for(let item of array2){
     map2[item] = (map2[item] || 0) + 1
 }
-//console.log(map1)
-//console.log(map2)
+console.log(map1)
+console.log(map2)
 
-for(let key in map1){
-    if(!map2[key*key]){
+for(let key in map1){ 
+    if(!map2[key*key]){           //obj keys compare in term of square 
         return false;
     }
-   if(map1[key] !== map2[key*key]){
+   if(map1[key] !== map2[key*key]){   //value compare
    return false; 
    }
 }
